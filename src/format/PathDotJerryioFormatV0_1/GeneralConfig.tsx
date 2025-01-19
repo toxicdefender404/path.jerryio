@@ -12,7 +12,7 @@ import { getNamedCoordinateSystems } from "@src/core/CoordinateSystem";
 export class GeneralConfigImpl implements GeneralConfig {
   @IsPositive()
   @Expose()
-  robotWidth: number = 30;
+  robotWidth: number = 29;
   @IsPositive()
   @Expose()
   robotHeight: number = 30;
